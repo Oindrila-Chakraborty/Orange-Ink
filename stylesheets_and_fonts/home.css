@@ -63,10 +63,13 @@ button img{
 		padding-top: 40%;
 	}
 	.nav-pills .nav-link{
-		padding: 5px;
+		padding: 0px;
+		font-size: 15px;
 	}
+
 	.jumbotron h1{
-	font-size: 3.5rem;
+	font-size: 3rem;
+	
 	}
 
 }

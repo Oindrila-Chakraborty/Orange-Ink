@@ -83,13 +83,13 @@ button img{
 	width: 30px;
 }
 /*for mobile screen*/
-@media(max-width: 768px){
+@media screen and (max-width: 768px){
 	nav{
 		padding-bottom: 0;
 	}
 	.one h1{
 		margin-left: 3%;
-		font-size: 3rem;
+		font-size: 2.5rem;
 		
 	}
 
@@ -118,5 +118,9 @@ button img{
 	padding-top:10%;
 	margin-left: 3%;
 	padding-bottom: 20%;
-}
+	}
+	.nav-pills .nav-link{
+		padding: 0px;
+		font-size: 15px;
+	}
 }
