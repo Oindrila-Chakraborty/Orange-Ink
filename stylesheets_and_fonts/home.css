@@ -55,7 +55,16 @@ button img{
 	height: 30px;
 	width: 30px;
 }
-@media(max-width: 768px){
+@media screen and (max-width: 320px){
+	.lead{
+		font-size: 1rem;
+	}
+	.go{
+		padding-top: 40%;
+	}
+
+}
+@media screen and (min-width: 320px) and (max-width: 768px){
 	.lead{
 		font-size: 1rem;
 	}
