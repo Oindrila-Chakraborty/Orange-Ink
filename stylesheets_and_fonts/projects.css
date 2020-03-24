@@ -1,0 +1,82 @@
+@font-face { font-family: Product Sans Regular; src: url('Product Sans Regular.ttf'); }
+@font-face { font-family: Product Sans Bold; src: url('Product Sans Bold.ttf'); }
+body{
+	background-color: black;
+	font-family: Product Sans Regular;
+
+}
+/*for navbar*/
+img{
+	height: 75px;
+	width: 75px;
+	
+}
+ .icon{
+ 	position: absolute;
+ 	top: 20px;
+ 	right: 20px;
+	height: 35px;
+	width: 35px;
+	
+}
+.option{
+	color: white;
+	
+}
+.option:hover{
+	color: black;
+	background-color:#c6ff27; 
+	font-weight: 500;
+}
+.nav-pills .green .nav-link{
+	background-color: #c6ff27;
+	color: black;
+	font-weight: 500;
+	
+}
+h1{
+	margin-left: 10%;
+	font-size: 4rem;
+	
+}
+.two{
+	margin-top: 40%;
+	margin-bottom: 10%
+}
+.container{
+	margin-left: 10%;
+	padding-top: 3%;
+}
+h2{
+	font-size: 1.8rem;
+	font-family: Product Sans Bold;
+}
+.client{
+	height: 100px;
+	width: 100px;
+}
+
+
+/*for mobile screens*/
+@media(max-width: 768px){
+	nav{
+		padding-bottom: 0;
+	}
+	h1{
+		font-size: 3rem;
+		margin-left: 3%;
+	}
+	.container{
+		margin-left: 3%;
+	}
+	.two{
+		margin-top: 80%;
+	}
+	.col-10{
+		font-size: 1rem;
+	}
+	h2{
+		font-size: 1.5rem;
+	}
+
+	}

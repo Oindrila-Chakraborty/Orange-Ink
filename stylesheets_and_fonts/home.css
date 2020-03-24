@@ -1,0 +1,66 @@
+ @font-face { font-family: Product Sans Regular; src: url('Product Sans Regular.ttf'); }
+body{
+	background-color: black;
+	font-family: Product Sans Regular;
+}
+/*for navbar*/
+img{
+	height: 75px;
+	width: 75px;
+	
+}
+ .icon{
+ 	position: absolute;
+ 	top: 20px;
+ 	right: 20px;
+	height: 35px;
+	width: 35px;
+	
+}
+.option{
+	color: white;
+}
+.option:hover{
+	color: black;
+	background-color:#c6ff27;
+	font-weight: 500; 
+}
+.nav-pills .green .nav-link{
+	background-color: #c6ff27;
+	color: black;
+	font-weight: 500;
+}
+.jumbotron{
+	padding-top: 15%;
+	background-color: black;
+}
+.jumbotron h1{
+	font-size: 4rem;
+}
+.lead{
+	color: #4b4b4b;
+}
+/*button*/
+.go{
+	padding-top:10%;
+}
+	
+
+.jumbotron .btn{
+	background-color: #c6ff27;
+	color: black;
+	font-weight: 500;
+}
+button img{
+	height: 30px;
+	width: 30px;
+}
+@media(max-width: 768px){
+	.lead{
+		font-size: 1rem;
+	}
+	.go{
+		padding-top: 40%;
+	}
+
+}
