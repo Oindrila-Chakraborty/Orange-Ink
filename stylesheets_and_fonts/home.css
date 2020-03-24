@@ -55,21 +55,18 @@ button img{
 	height: 30px;
 	width: 30px;
 }
-@media screen and (max-width: 320px){
+@media screen and (max-width: 768px){
 	.lead{
 		font-size: 1rem;
 	}
 	.go{
 		padding-top: 40%;
 	}
-
-}
-@media screen and (min-width: 320px) and (max-width: 768px){
-	.lead{
-		font-size: 1rem;
+	.nav-pills .nav-link{
+		padding: 8px;
 	}
-	.go{
-		padding-top: 40%;
+	.jumbotron h1{
+	font-size: 3.5rem;
 	}
 
 }
