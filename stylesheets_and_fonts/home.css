@@ -22,8 +22,12 @@ img{
 	font-weight: 500; 
 }
 .navbar-toggler{
+position:absolute;
+     top:18px;
+     right:10px;
 width: 55px;
 height: 40px;
+border: 0;
 background-color: black;
 }
 .navbar-toggler .line{
