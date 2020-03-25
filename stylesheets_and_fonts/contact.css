@@ -5,34 +5,34 @@ body{
 	background-color: black;
 	font-family: Product Sans Regular;
 }
-/*for navbar*/
 img{
 	height: 75px;
-	width: 75px;
-	
+	width: 75px;	
 }
- .icon{
- 	position: absolute;
- 	top: 20px;
- 	right: 20px;
-	height: 35px;
-	width: 35px;
-	
-}
-.option{
+.navbar-dark .navbar-nav  .nav-link {
 	color: white;
-	
 }
-.option:hover{
-	color: black;
-	background-color:#c6ff27; 
-	font-weight: 500;
-}
-.nav-pills .green .nav-link{
+.navbar-dark .nav-pills .nav-link.active{
 	background-color: #c6ff27;
 	color: black;
 	font-weight: 500;
-	
+}
+.navbar-dark .navbar-nav.nav-pills .nav-item .option:hover{
+	color: black;
+	background-color:#c6ff27;
+	font-weight: 500; 
+}
+.navbar-toggler{
+width: 55px;
+height: 40px;
+background-color: black;
+}
+.navbar-toggler .line{
+width: 100%;
+float: left;
+height: 3px;
+background-color: white;
+margin-bottom: 7px;
 }
 h1{
 	margin-left: 10%;
@@ -64,8 +64,8 @@ button img{
 }
 /*for mobile screen */
 @media screen and (max-width: 768px){
-	nav{
-		padding-bottom: 0;
+	ul{
+		padding-bottom: 5%;
 	}
 	h1{
 		font-size: 2.5rem;
@@ -85,8 +85,14 @@ button img{
 	.one .btn{
 		margin-left: 3%;
 	}
-	.nav-pills .nav-link{
-		padding: 0px;
-		font-size: 15px;
-	}
+	.navbar-dark .nav-pills .nav-link.active{
+	background-color: black;
+	color: #c6ff27;
+	font-weight: 500;
+}
+.navbar-dark .navbar-nav.nav-pills .nav-item .option:hover{
+	color: #c6ff27;
+	background-color:black;
+	font-weight: 500; 
+}
 }
