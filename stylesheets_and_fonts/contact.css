@@ -69,7 +69,7 @@ form  .btn{
 /*button*/
 .go{
 	
-	margin-left: 25%;
+	/*margin-left: 25%;*/
 	margin-bottom: 10%;
 
 }
@@ -90,7 +90,6 @@ button img{
   bottom: 0;
   width: 100%;
   height: 15%;
-  
   color: #4b4b4b;
   text-align: center;
 }
@@ -108,19 +107,23 @@ button img{
 	h1{
 		font-size: 2.5rem;
 		margin-left: 3%;
-	}
+		margin-bottom: 15%;
+			}
 	.go{
 		
-		margin-left: 30px;
+		/*margin-left: 30px;*/
 		margin-bottom: 20%;
 
+	}
+	.container{
+			margin-left: 3%;
 	}
 	form .form-control{
 	width: 90%;
 	}
-	.one .go .btn{
+	/*.one .go .btn{
 		margin-left: 3%;
-	}
+	}*/
 	.navbar-dark .nav-pills .nav-link.active{
 	background-color: black;
 	color: #c6ff27;
