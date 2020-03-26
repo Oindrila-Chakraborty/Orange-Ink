@@ -46,7 +46,7 @@ h1{
 }
 .two{
 	margin-top: 40%;
-	margin-bottom: 10%
+	margin-bottom: 5%
 }
 .container{
 	margin-left: 10%;
@@ -61,7 +61,23 @@ h2{
 	width: 100px;
 }
 
-
+/*footer*/
+.footer {
+  position: relative;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 15%;
+  
+  color: #4b4b4b;
+  text-align: center;
+}
+.footer i{
+	
+	font-size: 150%;
+	color: #4b4b4b;
+	
+}
 /*for mobile screens*/
 @media screen and (max-width: 768px){
 	ul{
@@ -97,4 +113,10 @@ h2{
 	height: 75px;
 	width: 75px;
 }
+.footer i{
+		font-size: 20px;
+	}
+	.footer p{
+		font-size: 0.8rem;
+	}
 	}

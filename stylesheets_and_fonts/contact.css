@@ -43,28 +43,62 @@ h1{
 	font-size: 4rem;
 	
 }
-.info{
-	margin-left: 10%;
-	padding-top: 5%
+/*form*/
+form .form-control{
+	width: 50%;
+	background-color: #3b3935;
+	color: white;
 }
-.h5{
-	font-size: 1.5rem;
-	
+form input{
+	color: white;
+}
+form .star{
+	color: #c6ff27;
+}
+form label{
+	color: white;
+	font-size: 1.2rem;
 	font-family: Product Sans Bold;
+}
+
+form  .btn{
+	background-color: #3b3935;
+	color: white;
+	
 }
 /*button*/
 .go{
-	padding-top:10%;
+	
+	margin-left: 25%;
+	margin-bottom: 10%;
+
 }
-.one .btn{
+.one .go .btn{
 	background-color: #c6ff27;
 	color: black;
 	font-weight: 500;
-	margin-left: 10%;
+	
 }
 button img{
 	height: 30px;
 	width: 30px;
+}
+/*footer*/
+.footer {
+  position: relative;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 15%;
+  
+  color: #4b4b4b;
+  text-align: center;
+}
+.footer i{
+	
+	font-size: 150%;
+	color: #4b4b4b;
+	
 }
 /*for mobile screen */
 @media screen and (max-width: 768px){
@@ -75,18 +109,16 @@ button img{
 		font-size: 2.5rem;
 		margin-left: 3%;
 	}
-	.info{
-		margin-left: 3%;
-		padding-top: 8%;
-	}
-	.h5{
-		font-size: 1.2rem;
-	}
 	.go{
-		padding-top: 40%;
-		padding-bottom: 10%;
+		
+		margin-left: 30px;
+		margin-bottom: 20%;
+
 	}
-	.one .btn{
+	form .form-control{
+	width: 90%;
+	}
+	.one .go .btn{
 		margin-left: 3%;
 	}
 	.navbar-dark .nav-pills .nav-link.active{
@@ -99,4 +131,10 @@ button img{
 	background-color:black;
 	font-weight: 500; 
 }
+.footer i{
+		font-size: 20px;
+	}
+	.footer p{
+		font-size: 0.8rem;
+	}
 }
