@@ -187,6 +187,9 @@ form  .btn{
 #contact .container{
 			margin-left: 3%;
 	}
+	#contact form{
+		margin-left: 3%;
+	}
 form .form-control{
 	width: 90%;
 	}
