@@ -68,7 +68,11 @@ button img{
 	height: 30px;
 	width: 30px;
 }
-
+.go .btn-outline{
+	border:2px solid #c6ff27;
+	background-color: black;
+	color: white;
+}
 /*about section*/
 .heading h1{
 	margin-left: 4%;
